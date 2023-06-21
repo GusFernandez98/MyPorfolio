@@ -1,5 +1,7 @@
 import { Link } from 'react-scroll';
 import Logo from '../img/banner5.jpg';
+//curriculum
+import Cv from '../Pdf/Cv-Fernández-Gustavo.pdf'
 //iconos
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 //Animacion
@@ -9,6 +11,7 @@ import { fadeIn } from '../variant';
 //Links a redes
 const urlLink = "https://www.linkedin.com/in/luis-gustavo-fernandez-a3a0b8255/";
 const urlGit = "https://github.com/GusFernandez98";
+
 
 const Banner = () => {
     return(
@@ -60,7 +63,7 @@ const Banner = () => {
                         <button className='btn btn-lg'>Contact me</button>
                         </Link>
                             
-                        <a href='#' className='text-gradient btn-link'>Download cv</a>
+                        <a href={Cv} className='text-gradient btn-link'>Download cv</a>
                         </motion.div>
 
                         {/* Redes */}
