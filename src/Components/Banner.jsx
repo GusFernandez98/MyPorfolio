@@ -63,7 +63,7 @@ const Banner = () => {
                         <button className='btn btn-lg'>Contact me</button>
                         </Link>
                             
-                        <a href={Cv} className='text-gradient btn-link'>Download cv</a>
+                        <a href={Cv} target='_blank' className='text-gradient btn-link'>Download cv</a>
                         </motion.div>
 
                         {/* Redes */}
@@ -73,10 +73,10 @@ const Banner = () => {
                         whileInView={'show'}
                         viewport={{once: false, amount: 0.7}}           
                         className='flex text-[25px] gap-x-6 max-w-max mx-auto lg:mx-0 '>
-                            <a href={urlLink}>
+                            <a href={urlLink} target='_blank'>
                                 <FaLinkedin />
                             </a>
-                            <a href={urlGit}>
+                            <a href={urlGit} target='_blank'>
                                 <FaGithub/>
                             </a>
 

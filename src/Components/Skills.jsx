@@ -22,15 +22,17 @@ const services = [
 
 const Skills = () => {
   return (
-    <section className='section flex justify-center items-center h-screen' id='skills'>
-      <div>
+    <section className='section' id='skills'>
+      <div className='container mx-auto'>
+      <div className="flex justify-center items-center h-screen">
+      
         <motion.div
             variants={fadeIn('up', 0.2)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
-            className='text-[75px] font-primary tracking-wider mb-16  text-accent'>
-            Skills
+            className='text-[75px] font-primary tracking-wider mb-16  text-accent mx-16'>
+              Skills
         </motion.div>
         
         <motion.div 
@@ -55,7 +57,7 @@ const Skills = () => {
             );
           })}
         </motion.div> 
-
+        </div>
       </div>
     </section>
   );

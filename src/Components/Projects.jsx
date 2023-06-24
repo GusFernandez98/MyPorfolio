@@ -21,7 +21,7 @@ const Projects = () => {
                             viewport={{once: false, amount: 0.7}}>
                             <h2 className='h2 leading-tight text-accent mb-8'>My projects</h2>
                             <p className='max-w-sm mb-16 text-[19px]'>Projects carried out with the aim of putting into practice everything learned</p>
-                            <a href={urlGit}>
+                            <a href={urlGit} target='_blank'>
                             <button className='btn btn-lg'>Github</button>
                             </a>
                         </motion.div>
