@@ -7,9 +7,10 @@ import Header from "./Components/Header";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 
+
 const App = () => {
   return (
-    <div className="text-white bg-gray-900 body-font">
+    <div  className='bg-site bg-no-repeat bg-cover overflow-hidden text-white bg-gray-900 body-font'>
     <Header />
     <Banner />
     <Nav />
@@ -17,7 +18,8 @@ const App = () => {
     <Skills />
     <Projects />
     <Contacts />
-    <div className='h-[4000px]'></div> 
+    {/* <div className='h-[4000px]'></div> */}
+    <div className='pb-20'></div>
     </div>
   );
 }
