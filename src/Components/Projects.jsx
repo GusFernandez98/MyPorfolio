@@ -1,11 +1,13 @@
 import React from "react";
 //imgs
 import proyecto1 from '../img/app rym.png'
-import proyecto2 from '../img/app perritos.png';
+import proyecto2 from '../img/Portada para portf VG.png';
 //animation
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variant';
 const urlGit = "https://github.com/GusFernandez98";
+const urlProjectGitVg = 'https://github.com/GusFernandez98/PI-Videogames.git ';
+const urlRyM = 'https://github.com/GusFernandez98/Rick-Morty';
 
 const Projects = () => {
     return (
@@ -39,14 +41,16 @@ const Projects = () => {
                             className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                         {/*overlay */}
                             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-                            <img className='group-hover:scale-125 transition-all duration-500' src={proyecto2} alt="DogApp"/> 
+                            <img className='group-hover:scale-125 transition-all duration-500' src={proyecto2} alt="VgApp"/> 
                         {/*Subtitulo */}
                             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                                 <span className='text-gradient'>Individual project</span>
                             </div>
                         {/*Titulo */}
                             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                                <span className='text-4x1 text-gradient'>Dog App</span>
+                                <a href={urlProjectGitVg} target='_blank'>
+                                <span className='text-4x1 text-gradient'>Videogames App</span>
+                                </a>
                             </div>
                         </motion.div>
 
@@ -66,7 +70,9 @@ const Projects = () => {
                             </div>
                         {/*Titulo */}
                             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                                <a href={urlRyM} target='_blank'>
                                 <span className='text-4x1 text-gradient'>Rick & Morty</span>
+                                </a>
                             </div>
                         </motion.div>
 
