@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 import Logo from '../img/banner5.jpg';
 //curriculum
-import Cv from '../Pdf/Cv-Fernández-Gustavo.pdf'
+import Cv from '../Pdf/Cv-Actualizado-Fernandez.pdf';
 //iconos
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 //Animacion
