@@ -142,8 +142,8 @@ const Skills = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0 bg-cover lg:max-h-[682px] '>
-          <h2 className='h2 leading-tight text-accent mb-8'>Skills</h2>
-          <h3 className=' max-w-[455px] mb-16 text-[19px]'>The technologies learned in the bootcamp and that I am perfecting day by day.</h3>
+          <h2 className='h2 leading-tight text-accent mb-8'>Habilidades</h2>
+          <h3 className=' max-w-[455px] mb-16 text-[19px]'>tecnologías aprendidas a lo largo de este tiempo, las cuales sigo perfeccionando día a día.</h3>
         </motion.div>
 
           {/*ICONOS DEL FRONTEND */}

@@ -21,8 +21,8 @@ const Projects = () => {
                             initial='hidden'
                             whileInView={'show'}
                             viewport={{once: false, amount: 0.7}}>
-                            <h2 className='h2 leading-tight text-accent mb-8'>My projects</h2>
-                            <p className='max-w-sm mb-16 text-[19px]'>Projects carried out with the aim of putting into practice everything learned</p>
+                            <h2 className='h2 leading-tight text-accent mb-8'>Mis proyectos</h2>
+                            <p className='max-w-sm mb-16 text-[19px]'>Proyectos realizados por mi. Algunos derivan del bootcamp, mientras que otros son hechos para consolidar conocimiento y mejorar habilidades</p>
                             <a href={urlGit} target='_blank'>
                             <button className='btn btn-lg'>Github</button>
                             </a>

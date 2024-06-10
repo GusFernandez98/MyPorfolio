@@ -55,7 +55,7 @@ const Contacts = () => {
                     viewport={{once: false, amount: 0.7}}
                     className='flex-1'>
                         <div>
-                            <h2 className='text-[40px] lg:text-[80px] leading-none mb-12 text-accent'>CONTACT ME!</h2>
+                            <h2 className='text-[40px] lg:text-[80px] leading-none mb-12 text-accent'>CONTÁCTAME!</h2>
                         </div>
                     </motion.div>
 
@@ -70,7 +70,7 @@ const Contacts = () => {
                         className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-2'
                         type='text'
                         name="user_name"
-                        placeholder='Your name'
+                        placeholder='Nombre'
                         value={userValues.user_name}
                         onChange={handleInputChange}
                         />
@@ -79,7 +79,7 @@ const Contacts = () => {
                         className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
                         type='text'
                         name="user_email"
-                        placeholder='Your email'
+                        placeholder='Email'
                         value={userValues.user_email}
                         onChange={handleInputChange}
                         />
@@ -87,11 +87,11 @@ const Contacts = () => {
                         <textarea
                         className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
                         name="message"
-                        placeholder='Your message'
+                        placeholder='tu mensaje'
                         value={userValues.message}
                         onChange={handleInputChange}
                         ></textarea>
-                        <button onClick={handleButtonClick} className='btn btn-lg'>Send message</button>
+                        <button onClick={handleButtonClick} className='btn btn-lg'>Enviar mensaje</button>
                     </motion.form>
                 </div>
             </div>

@@ -27,7 +27,7 @@ const Banner = () => {
                             whileInView={'show'}
                             viewport={{once: false, amount: 0.7}}
                             className='mb-6 text-[30px] font-bold leading-[0.8]'>
-                            Hi!👋🏼<span> i am Gustavo Fernández </span>
+                            Hola!👋🏼<span> soy Gustavo Fernández </span>
                         </motion.h1>
 
                         <motion.div 
@@ -39,7 +39,7 @@ const Banner = () => {
                             <span>
                             <TypeAnimation
                              sequence={[
-                                'Jr. Full Stack Web Developer',
+                                'Full Stack Web Developer',
                                 3000,
                             ]}
                             speed={50}
@@ -60,10 +60,10 @@ const Banner = () => {
                         <Link to='contact' activeClass='active'
                         smooth={true}
                         spy={true}>
-                        <button className='btn btn-lg'>Contact me</button>
+                        <button className='btn btn-lg'>Contacto</button>
                         </Link>
                             
-                        <a href={Cv} target='_blank' className='text-gradient btn-link'>Download cv</a>
+                        <a href={Cv} target='_blank' className='text-gradient btn-link'>Descargar cv</a>
                         </motion.div>
 
                         {/* Redes */}
